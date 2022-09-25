@@ -22,11 +22,12 @@ Dialog DLL:      TARMCM1.DLL V1.9.0.0
  
 <h2>Project:</h2>
 D:\MCU_Code\SWM181_Code\CBT6\LED\MiaoA.uvprojx
-Project File Date:  09/24/2022
+Project File Date:  09/25/2022
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\Bin'
 Build target 'Target 1'
+compiling led.c...
 compiling main.c...
 linking...
 Program Size: Code=2756 RO-data=224 RW-data=8 ZI-data=1120  
@@ -35,6 +36,12 @@ FromELF: creating hex file...
 
 <h2>Software Packages used:</h2>
 
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM::CMSIS:CORE:5.4.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
 Package Vendor: Synwit
                 http://www.synwit.com/pack/Synwit.SWM32_DFP.1.20.3.pack
                 Synwit::Device:Startup:1.6.0
@@ -42,21 +49,15 @@ Package Vendor: Synwit
    * Component: Startup Version: 1.6.0
    * Component: ADC Version: 1.6.0
    * Component: I2C Version: 1.6.0
+   * Component: Port Version: 1.6.0
    * Component: DMA Version: 1.6.0
    * Component: GPIO Version: 1.6.0
-   * Component: SDADC Version: 1.6.0
-   * Component: SLCD Version: 1.6.0
    * Component: PWM Version: 1.6.0
-   * Component: UART Version: 1.6.0
+   * Component: SDADC Version: 1.6.0
    * Component: Timer Version: 1.6.0
+   * Component: UART Version: 1.6.0
+   * Component: SLCD Version: 1.6.0
    * Component: SPI Version: 1.6.0
-   * Component: Port Version: 1.6.0
-
-Package Vendor: ARM
-                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
-                ARM::CMSIS:CORE:5.4.0
-                CMSIS (Cortex Microcontroller Software Interface Standard)
-   * Component: CORE Version: 5.4.0
 
 <h2>Collection of Component include folders:</h2>
   D:\MCU_Code\SWM181_Code\CBT6\LED\RTE
@@ -66,9 +67,14 @@ Package Vendor: ARM
 
 <h2>Collection of Component Files used:</h2>
 
+   * Component: ARM::CMSIS:CORE:5.4.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+      Source file:   CMSIS\Core\Template\ARMv8-M\main_s.c
+      Source file:   CMSIS\Core\Template\ARMv8-M\tz_context.c
+
    * Component: Synwit::Device:Startup:1.6.0
-      Source file:   CSL\SWM181\CMSIS\DeviceSupport\system_SWM181.c
       Source file:   CSL\SWM181\CMSIS\DeviceSupport\startup\arm\startup_SWM181.s
+      Source file:   CSL\SWM181\CMSIS\DeviceSupport\system_SWM181.c
 
    * Component: Synwit::Device:Driver:ADC:1.6.0
       Include file:  CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_adc.h
@@ -78,47 +84,42 @@ Package Vendor: ARM
       Include file:  CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_i2c.h
       Source file:   CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_i2c.c
 
+   * Component: Synwit::Device:Driver:Port:1.6.0
+      Source file:   CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_port.c
+      Include file:  CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_port.h
+
    * Component: Synwit::Device:Driver:DMA:1.6.0
-      Source file:   CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_dma.c
       Include file:  CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_dma.h
+      Source file:   CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_dma.c
 
    * Component: Synwit::Device:Driver:GPIO:1.6.0
-      Source file:   CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_gpio.c
       Include file:  CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_gpio.h
-
-   * Component: Synwit::Device:Driver:SDADC:1.6.0
-      Source file:   CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_sdadc.c
-      Include file:  CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_sdadc.h
-
-   * Component: Synwit::Device:Driver:SLCD:1.6.0
-      Include file:  CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_slcd.h
-      Source file:   CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_slcd.c
+      Source file:   CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_gpio.c
 
    * Component: Synwit::Device:Driver:PWM:1.6.0
       Include file:  CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_pwm.h
       Source file:   CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_pwm.c
 
-   * Component: Synwit::Device:Driver:UART:1.6.0
-      Include file:  CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_uart.h
-      Source file:   CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_uart.c
+   * Component: Synwit::Device:Driver:SDADC:1.6.0
+      Source file:   CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_sdadc.c
+      Include file:  CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_sdadc.h
 
    * Component: Synwit::Device:Driver:Timer:1.6.0
       Source file:   CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_timr.c
       Include file:  CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_timr.h
 
+   * Component: Synwit::Device:Driver:UART:1.6.0
+      Include file:  CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_uart.h
+      Source file:   CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_uart.c
+
+   * Component: Synwit::Device:Driver:SLCD:1.6.0
+      Source file:   CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_slcd.c
+      Include file:  CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_slcd.h
+
    * Component: Synwit::Device:Driver:SPI:1.6.0
-      Source file:   CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_spi.c
       Include file:  CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_spi.h
-
-   * Component: Synwit::Device:Driver:Port:1.6.0
-      Include file:  CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_port.h
-      Source file:   CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_port.c
-
-   * Component: ARM::CMSIS:CORE:5.4.0
-      Source file:   CMSIS\Core\Template\ARMv8-M\main_s.c
-      Source file:   CMSIS\Core\Template\ARMv8-M\tz_context.c
-      Include file:  CMSIS\Core\Include\tz_context.h
-Build Time Elapsed:  00:00:01
+      Source file:   CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_spi.c
+Build Time Elapsed:  00:00:00
 </pre>
 </body>
 </html>
