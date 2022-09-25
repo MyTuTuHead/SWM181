@@ -1,5 +1,6 @@
 --cpu Cortex-M0
 ".\objects\main.o"
+".\objects\led.o"
 ".\objects\swm181_adc.o"
 ".\objects\swm181_dma.o"
 ".\objects\swm181_gpio.o"
