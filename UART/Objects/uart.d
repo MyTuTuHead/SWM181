@@ -1,5 +1,5 @@
-.\objects\uart.o: uart\uart.c
-.\objects\uart.o: uart\uart.h
+.\objects\uart.o: Basic\uart\uart.c
+.\objects\uart.o: Basic\uart\uart.h
 .\objects\uart.o: D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\CMSIS\DeviceSupport\SWM181.h
 .\objects\uart.o: D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\Bin\..\include\stdio.h
 .\objects\uart.o: D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h

@@ -10,6 +10,7 @@
 2022/9/24--->>去除Fputc()重定义函数
 							原因：重定义fputc使用printf时需要单个字符打印，过程过于繁琐
 							如需调试打印，请使用 UART0_printf（）函数，使用方法和printf一致
+2022/9/26--->>加入gpio.h
 
 
 现有问题：
@@ -23,15 +24,18 @@
 #include "SWM181.h"
 #include "uart.h"
 #include "irq.h"
-
+#include "gpio.h"
+#include "led.h"
 
 int main(void)
 {	
 	SystemInit();	
 	Uart_Init(115200);
 	UART0_printf("MiaoA");
-	GPIO_Init(GPIOB, PIN8, 1, 0, 0, 0);			//输出，接LED
-	GPIO_Init(GPIOD, PIN0, 1, 0, 0, 0);
+	Led_Init();
+	PDOUT_H(LED1_PIN);//一亮一灭，布灵布灵
+	PBOUT_L(LED2_PIN);
+
 	SysTick_Config(SystemCoreClock/8);			//每1/8秒钟触发一次中断			
 	while(1)
 	{
@@ -41,7 +45,7 @@ int main(void)
 
 void SysTick_Handler(void)
 {	
-	GPIO_InvBit(GPIOB, PIN8);	//反转LED亮灭状态
-	GPIO_InvBit(GPIOD, PIN0);
+	PDOUT_T(LED1_PIN);
+	PBOUT_T(LED2_PIN);
 }
 

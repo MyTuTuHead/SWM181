@@ -1,6 +1,8 @@
 --cpu Cortex-M0
 ".\objects\main.o"
 ".\objects\irq.o"
+".\objects\led.o"
+".\objects\delay.o"
 ".\objects\uart.o"
 ".\objects\swm181_adc.o"
 ".\objects\swm181_dma.o"

@@ -29,7 +29,7 @@
 .\objects\irq.o: D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_irqmux.h
 .\objects\irq.o: D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_cache.h
 .\objects\irq.o: D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_sleep.h
-.\objects\irq.o: .\uart\uart.h
+.\objects\irq.o: .\Basic\uart\uart.h
 .\objects\irq.o: D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\Bin\..\include\stdlib.h
 .\objects\irq.o: D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\Bin\..\include\stdarg.h
 .\objects\irq.o: D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\Bin\..\include\string.h
