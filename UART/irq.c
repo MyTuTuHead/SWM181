@@ -14,9 +14,6 @@
 */
 
 #include "irq.h"
-#include "SWM181.h"
-#include "SWM181_uart.h"
-#include "uart.h"
 
 
 
@@ -37,5 +34,13 @@ void IRQ0_Handler(void){
 			}
 		}
 	}
+}
+
+
+
+void SysTick_Handler(void)
+{	
+	PDOUT_T(LED1_PIN);
+	PBOUT_T(LED2_PIN);
 }
 

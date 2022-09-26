@@ -22,7 +22,7 @@
 #include <stdlib.h>
 #include "stdarg.h"
 #include "string.h"
-
+#include "irq.h"
 
 #define UART_n		UART0  //定义使用printf函数的串口，其他串口要使用UART_printf专用函数发送  [UART0 UART1 UART2 UART3]
 

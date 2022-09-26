@@ -43,9 +43,4 @@ int main(void)
 }
 
 
-void SysTick_Handler(void)
-{	
-	PDOUT_T(LED1_PIN);
-	PBOUT_T(LED2_PIN);
-}
 

@@ -1,5 +1,5 @@
 Dependencies for Project 'MiaoA', Target 'Target 1': (DO NOT MODIFY !)
-F (.\main.c)(0x63311BEB)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\UART -I .\HARDWARE\LED -I .\Basic\delay -I .\Basic\uart-I D:\MCU_Code\SWM181_Code\CBT6\UART\RTE-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\CMSIS\DeviceSupport"-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver"-D__UVISION_VERSION="518" -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\main.c)(0x63313821)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\UART -I .\HARDWARE\LED -I .\Basic\delay -I .\Basic\uart-I D:\MCU_Code\SWM181_Code\CBT6\UART\RTE-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\CMSIS\DeviceSupport"-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver"-D__UVISION_VERSION="518" -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\CMSIS\DeviceSupport\SWM181.h)(0x610BAB30)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\include\stdio.h)(0x5E8E3CC2)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
@@ -29,16 +29,16 @@ I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\S
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_irqmux.h)(0x5AD43BD2)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_cache.h)(0x5ABC5B5C)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_sleep.h)(0x5BA9CF16)
-I (.\Basic\uart\uart.h)(0x632E6E6D)
+I (.\Basic\uart\uart.h)(0x63313893)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\include\stdlib.h)(0x5E8E3CC2)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\include\stdarg.h)(0x5E8E3CC2)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\include\string.h)(0x5E8E3CC2)
-I (irq.h)(0x632E6E6D)
-I (gpio.h)(0x63305574)
+I (irq.h)(0x6331387C)
 I (.\HARDWARE\LED\led.h)(0x633057A6)
+I (..\UART\gpio.h)(0x63305574)
 F (.\gpio.h)(0x63305574)()
-F (.\irq.c)(0x632E6E6D)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\UART -I .\HARDWARE\LED -I .\Basic\delay -I .\Basic\uart-I D:\MCU_Code\SWM181_Code\CBT6\UART\RTE-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\CMSIS\DeviceSupport"-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver"-D__UVISION_VERSION="518" -D_RTE_-o .\objects\irq.o --omf_browse .\objects\irq.crf --depend .\objects\irq.d)
-I (irq.h)(0x632E6E6D)
+F (.\irq.c)(0x63313821)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\UART -I .\HARDWARE\LED -I .\Basic\delay -I .\Basic\uart-I D:\MCU_Code\SWM181_Code\CBT6\UART\RTE-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\CMSIS\DeviceSupport"-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver"-D__UVISION_VERSION="518" -D_RTE_-o .\objects\irq.o --omf_browse .\objects\irq.crf --depend .\objects\irq.d)
+I (irq.h)(0x6331387C)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\CMSIS\DeviceSupport\SWM181.h)(0x610BAB30)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\include\stdio.h)(0x5E8E3CC2)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
@@ -68,10 +68,13 @@ I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\S
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_irqmux.h)(0x5AD43BD2)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_cache.h)(0x5ABC5B5C)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_sleep.h)(0x5BA9CF16)
-I (.\Basic\uart\uart.h)(0x632E6E6D)
+I (.\Basic\uart\uart.h)(0x63313893)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\include\stdlib.h)(0x5E8E3CC2)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\include\stdarg.h)(0x5E8E3CC2)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\include\string.h)(0x5E8E3CC2)
+I (..\UART\irq.h)(0x6331387C)
+I (.\HARDWARE\LED\led.h)(0x633057A6)
+I (..\UART\gpio.h)(0x63305574)
 F (.\HARDWARE\LED\led.c)(0x63305504)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\UART -I .\HARDWARE\LED -I .\Basic\delay -I .\Basic\uart-I D:\MCU_Code\SWM181_Code\CBT6\UART\RTE-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\CMSIS\DeviceSupport"-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver"-D__UVISION_VERSION="518" -D_RTE_-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
 I (HARDWARE\LED\led.h)(0x633057A6)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\CMSIS\DeviceSupport\SWM181.h)(0x610BAB30)
@@ -135,8 +138,8 @@ I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\S
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_irqmux.h)(0x5AD43BD2)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_cache.h)(0x5ABC5B5C)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_sleep.h)(0x5BA9CF16)
-F (.\Basic\uart\uart.c)(0x63311C37)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\UART -I .\HARDWARE\LED -I .\Basic\delay -I .\Basic\uart-I D:\MCU_Code\SWM181_Code\CBT6\UART\RTE-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\CMSIS\DeviceSupport"-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver"-D__UVISION_VERSION="518" -D_RTE_-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
-I (Basic\uart\uart.h)(0x632E6E6D)
+F (.\Basic\uart\uart.c)(0x63313830)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\UART -I .\HARDWARE\LED -I .\Basic\delay -I .\Basic\uart-I D:\MCU_Code\SWM181_Code\CBT6\UART\RTE-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\CMSIS\DeviceSupport"-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver"-D__UVISION_VERSION="518" -D_RTE_-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (Basic\uart\uart.h)(0x63313893)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\CMSIS\DeviceSupport\SWM181.h)(0x610BAB30)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\include\stdio.h)(0x5E8E3CC2)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
@@ -169,6 +172,10 @@ I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\S
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\include\stdlib.h)(0x5E8E3CC2)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\include\stdarg.h)(0x5E8E3CC2)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\include\string.h)(0x5E8E3CC2)
+I (..\UART\irq.h)(0x6331387C)
+I (.\Basic\uart\uart.h)(0x63313893)
+I (.\HARDWARE\LED\led.h)(0x633057A6)
+I (..\UART\gpio.h)(0x63305574)
 F (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_adc.c)(0x5ABC5B5C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\UART -I .\HARDWARE\LED -I .\Basic\delay -I .\Basic\uart-I D:\MCU_Code\SWM181_Code\CBT6\UART\RTE-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\CMSIS\DeviceSupport"-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver"-D__UVISION_VERSION="518" -D_RTE_-o .\objects\swm181_adc.o --omf_browse .\objects\swm181_adc.crf --depend .\objects\swm181_adc.d)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\CMSIS\DeviceSupport\SWM181.h)(0x610BAB30)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\include\stdio.h)(0x5E8E3CC2)
@@ -260,6 +267,36 @@ I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\S
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_cache.h)(0x5ABC5B5C)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_sleep.h)(0x5BA9CF16)
 F (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_i2c.c)(0x5E5DDB76)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\UART -I .\HARDWARE\LED -I .\Basic\delay -I .\Basic\uart-I D:\MCU_Code\SWM181_Code\CBT6\UART\RTE-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\CMSIS\DeviceSupport"-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver"-D__UVISION_VERSION="518" -D_RTE_-o .\objects\swm181_i2c.o --omf_browse .\objects\swm181_i2c.crf --depend .\objects\swm181_i2c.d)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\CMSIS\DeviceSupport\SWM181.h)(0x610BAB30)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\CMSIS\DeviceSupport\system_SWM181.h)(0x62B29450)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_port.h)(0x5E69AE80)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_gpio.h)(0x5B0E5CEA)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_exti.h)(0x5ABC5B5C)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_timr.h)(0x5ABC5B5C)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_uart.h)(0x5E0B0FEE)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_spi.h)(0x5B851036)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_i2c.h)(0x5E5DDC2E)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_pwm.h)(0x5ABC5B5C)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_cmp.h)(0x5ABC5B5C)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_adc.h)(0x5ABC5B5C)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_sdadc.h)(0x5DF0C262)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_dma.h)(0x5ABC5B5C)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_can.h)(0x5F6961AA)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_slcd.h)(0x5ABC5B5C)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_flash.h)(0x5ABC5B5C)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_wdt.h)(0x5ABC5B5C)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_div.h)(0x5ABC5B5C)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_cordic.h)(0x5ABC5B5C)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_irqmux.h)(0x5AD43BD2)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_cache.h)(0x5ABC5B5C)
+I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_sleep.h)(0x5BA9CF16)
+F (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_irqmux.c)(0x5ABC5B5C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\UART -I .\HARDWARE\LED -I .\Basic\delay -I .\Basic\uart-I D:\MCU_Code\SWM181_Code\CBT6\UART\RTE-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\CMSIS\DeviceSupport"-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver"-D__UVISION_VERSION="518" -D_RTE_-o .\objects\swm181_irqmux.o --omf_browse .\objects\swm181_irqmux.crf --depend .\objects\swm181_irqmux.d)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\CMSIS\DeviceSupport\SWM181.h)(0x610BAB30)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\include\stdio.h)(0x5E8E3CC2)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
@@ -505,36 +542,6 @@ I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\CMSIS\DeviceSupport\SWM181.h)(0x610BAB30)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\include\stdio.h)(0x5E8E3CC2)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\CMSIS\DeviceSupport\system_SWM181.h)(0x62B29450)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_port.h)(0x5E69AE80)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_gpio.h)(0x5B0E5CEA)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_exti.h)(0x5ABC5B5C)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_timr.h)(0x5ABC5B5C)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_uart.h)(0x5E0B0FEE)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_spi.h)(0x5B851036)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_i2c.h)(0x5E5DDC2E)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_pwm.h)(0x5ABC5B5C)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_cmp.h)(0x5ABC5B5C)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_adc.h)(0x5ABC5B5C)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_sdadc.h)(0x5DF0C262)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_dma.h)(0x5ABC5B5C)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_can.h)(0x5F6961AA)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_slcd.h)(0x5ABC5B5C)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_flash.h)(0x5ABC5B5C)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_wdt.h)(0x5ABC5B5C)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_div.h)(0x5ABC5B5C)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_cordic.h)(0x5ABC5B5C)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_irqmux.h)(0x5AD43BD2)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_cache.h)(0x5ABC5B5C)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_sleep.h)(0x5BA9CF16)
-F (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver\SWM181_irqmux.c)(0x5ABC5B5C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\UART -I .\HARDWARE\LED -I .\Basic\delay -I .\Basic\uart-I D:\MCU_Code\SWM181_Code\CBT6\UART\RTE-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\CMSIS\DeviceSupport"-I "D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\SWM181_StdPeriph_Driver"-D__UVISION_VERSION="518" -D_RTE_-o .\objects\swm181_irqmux.o --omf_browse .\objects\swm181_irqmux.crf --depend .\objects\swm181_irqmux.d)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\Synwit\SWM32_DFP\1.20.3\CSL\SWM181\CMSIS\DeviceSupport\SWM181.h)(0x610BAB30)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\include\stdio.h)(0x5E8E3CC2)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
-I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
 I (D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)

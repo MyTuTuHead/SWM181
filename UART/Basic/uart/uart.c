@@ -76,7 +76,7 @@ void Uart_Init(uint32_t baudrate){
 
  	UART_Init(UART0, &UART_initStruct); 
 	
-	IRQ_Connect(IRQ0_15_UART0, IRQ0_IRQ, 1);        //中断配置，绑定UART0中断到 IRQ0上
+	IRQ_Connect(IRQ0_15_UART0, UART0_IRQ_LINE, 1);        //中断配置，绑定UART0中断到 IRQ0上
 	
 	UART_Open(UART0);                               //开启UART0
 }

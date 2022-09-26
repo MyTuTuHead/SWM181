@@ -332,7 +332,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath></IncludePath>
+              <IncludePath>..\UART;.\HARDWARE\LED;.\Basic\delay;.\Basic\uart</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -373,12 +373,47 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>Source Group 1</GroupName>
+          <GroupName>usr</GroupName>
           <Files>
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>gpio.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\gpio.h</FilePath>
+            </File>
+            <File>
+              <FileName>irq.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\irq.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>HARDWARE</GroupName>
+          <Files>
+            <File>
+              <FileName>led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HARDWARE\LED\led.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Basic</GroupName>
+          <Files>
+            <File>
+              <FileName>delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Basic\delay\delay.c</FilePath>
+            </File>
+            <File>
+              <FileName>uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Basic\uart\uart.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -420,6 +455,12 @@
         </targetInfos>
       </component>
       <component Cclass="Device" Cgroup="Driver" Csub="I2C" Cvendor="Synwit" Cversion="1.6.0" condition="SWM181 Series">
+        <package name="SWM32_DFP" schemaVersion="1.2" url="http://www.synwit.com/pack" vendor="Synwit" version="1.20.3"/>
+        <targetInfos>
+          <targetInfo name="Target 1"/>
+        </targetInfos>
+      </component>
+      <component Cclass="Device" Cgroup="Driver" Csub="IRQMux" Cvendor="Synwit" Cversion="1.6.0" condition="SWM181 Series">
         <package name="SWM32_DFP" schemaVersion="1.2" url="http://www.synwit.com/pack" vendor="Synwit" version="1.20.3"/>
         <targetInfos>
           <targetInfo name="Target 1"/>

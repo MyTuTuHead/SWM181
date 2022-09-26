@@ -8,6 +8,7 @@
 ".\objects\swm181_dma.o"
 ".\objects\swm181_gpio.o"
 ".\objects\swm181_i2c.o"
+".\objects\swm181_irqmux.o"
 ".\objects\swm181_port.o"
 ".\objects\swm181_pwm.o"
 ".\objects\swm181_sdadc.o"
@@ -17,7 +18,6 @@
 ".\objects\swm181_uart.o"
 ".\objects\startup_swm181.o"
 ".\objects\system_swm181.o"
-".\objects\swm181_irqmux.o"
 --strict --scatter ".\Objects\MiaoA.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

@@ -33,3 +33,6 @@
 .\objects\irq.o: D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\Bin\..\include\stdlib.h
 .\objects\irq.o: D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\Bin\..\include\stdarg.h
 .\objects\irq.o: D:\Keil uvision5 MDK\Keil uvision5 MDK\ARM\AC5\Bin\..\include\string.h
+.\objects\irq.o: ..\UART\irq.h
+.\objects\irq.o: .\HARDWARE\LED\led.h
+.\objects\irq.o: ..\UART\gpio.h
