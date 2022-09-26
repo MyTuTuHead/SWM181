@@ -40,7 +40,7 @@ int main(void)
 	PDOUT_T(LED1_PIN);
 	PBOUT_T(LED2_PIN);
 
-	SysTick_Config(SystemCoreClock/8);			//每0.25秒钟触发一次中断			
+	SysTick_Config(SystemCoreClock/8);			//每1/8秒钟触发一次中断			
 	while(1)
 	{
 	}
