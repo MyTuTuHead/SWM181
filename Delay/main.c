@@ -4,8 +4,9 @@
 创建时间：2022/9/25
 功能：延时
 
-修改日志：
 
+修改日志：
+2022/9/26--->>修改延时时间不精准
 
 
 现有问题：
@@ -16,27 +17,28 @@
 
 #include "SWM181.h"
 #include "delay.h"
+#include "led.h"
+#include "gpio.h"
 
 int main(void)
 {	
 	SystemInit();	
-	GPIO_Init(GPIOD, PIN0, 1, 0, 0, 0);			//输出，接LED	
-	GPIO_Init(GPIOB, PIN8, 1, 0, 0, 0);
+	Led_Init();
+	
+	PDOUT_H(LED1_PIN);
+	PBOUT_L(LED2_PIN);
+	delay_us(1);
+	delay_ms(1);
+	delay_s(1);
 
-	GPIO_InvBit(GPIOD, PIN0);	//反转LED亮灭状态
-	GPIO_InvBit(GPIOB, PIN8);
-	delay_us(1000000);
-	delay_us(1000000);
-	delay_us(1000000);
+	PDOUT_T(LED1_PIN);	//反转LED亮灭状态
+	PBOUT_T(LED2_PIN);
+	delay_us(1);
+	delay_ms(1);
+	delay_s(1);
 
-	GPIO_InvBit(GPIOD, PIN0);	//反转LED亮灭状态
-	GPIO_InvBit(GPIOB, PIN8);
-	delay_us(1000000);
-	delay_us(1000000);
-	delay_us(1000000);
-
-	GPIO_InvBit(GPIOD, PIN0);	//反转LED亮灭状态
-	GPIO_InvBit(GPIOB, PIN8);
+	PDOUT_T(LED1_PIN);
+	PBOUT_T(LED2_PIN);
 
 	SysTick_Config(SystemCoreClock/8);			//每0.25秒钟触发一次中断			
 	while(1)
@@ -45,7 +47,7 @@ int main(void)
 }
 void SysTick_Handler(void)
 {	
-	GPIO_InvBit(GPIOD, PIN0);	//反转LED亮灭状态
-	GPIO_InvBit(GPIOB, PIN8);
+	PDOUT_T(LED1_PIN);
+	PBOUT_T(LED2_PIN);
 }
 

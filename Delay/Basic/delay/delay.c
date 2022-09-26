@@ -5,7 +5,7 @@
 功能：延时
 
 修改日志：
-
+2022/9/26--->>修改延时时间不精准--->>SysTick->LOAD = CyclesPerUs * us;//CyclesPerUs在system_SWM181.c中宏定义
 
 
 现有问题：
@@ -20,15 +20,15 @@
 //输入	定时US
 //输出	无
 uint8_t delay_us(uint32_t us){								//uS微秒级延时程序
-	 if ((us - 1UL) > SysTick_LOAD_RELOAD_Msk)
+	if ((us - 1UL) > SysTick_LOAD_RELOAD_Msk)
     return 1;                                                
 
-	SysTick->LOAD=SystemCoreClock*us;      	//重装计数初值	systick系统时钟SystemCoreClock使用内部高速时钟
+	SysTick->LOAD = (uint32_t)(CyclesPerUs  * us); //重装计数初值	systick系统时钟SystemCoreClock使用内部高速时钟
 																					//如要修改，可在system_SWM181.C中修改
-	SysTick->VAL=0x00;        							//清空定时器的计数器
-	SysTick->CTRL=0x00000005;								//时钟源HCLK，打开定时器
-	while(!(SysTick->CTRL&0x00010000)); 		//等待计数到0
-	SysTick->CTRL=0x00000004;								//关闭定时器
+	SysTick->VAL = 0U;        							//清空定时器的计数器
+	SysTick->CTRL  = SysTick_CTRL_ENABLE_Msk;	//时钟源HCLK，打开定时器
+	while(!(SysTick->CTRL & 0x00010000)); 		//等待计数到0
+	SysTick->CTRL &= ~SysTick_CTRL_ENABLE_Msk;//关闭定时器
 	
 	return 0;
 }

@@ -332,7 +332,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>..\Delay;.\Basic\delay</IncludePath>
+              <IncludePath>..\Delay;.\Basic\delay;.\HARDWARE\LED</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -380,6 +380,11 @@
               <FileType>1</FileType>
               <FilePath>.\main.c</FilePath>
             </File>
+            <File>
+              <FileName>gpio.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\gpio.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -389,6 +394,16 @@
               <FileName>delay.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Basic\delay\delay.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>HARDWARE</GroupName>
+          <Files>
+            <File>
+              <FileName>led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HARDWARE\LED\led.c</FilePath>
             </File>
           </Files>
         </Group>
