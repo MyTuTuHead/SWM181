@@ -1,0 +1,28 @@
+--cpu Cortex-M0
+".\objects\main.o"
+".\objects\oled.o"
+".\objects\led.o"
+".\objects\mpu6050.o"
+".\objects\mpuiic.o"
+".\objects\inv_mpu.o"
+".\objects\inv_mpu_dmp_motion_driver.o"
+".\objects\delay.o"
+".\objects\uart.o"
+".\objects\swm181_adc.o"
+".\objects\swm181_dma.o"
+".\objects\swm181_gpio.o"
+".\objects\swm181_i2c.o"
+".\objects\swm181_irqmux.o"
+".\objects\swm181_port.o"
+".\objects\swm181_pwm.o"
+".\objects\swm181_sdadc.o"
+".\objects\swm181_slcd.o"
+".\objects\swm181_spi.o"
+".\objects\swm181_timr.o"
+".\objects\swm181_uart.o"
+".\objects\startup_swm181.o"
+".\objects\system_swm181.o"
+--strict --scatter ".\Objects\MiaoA.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\MiaoA.map" -o .\Objects\MiaoA.axf
