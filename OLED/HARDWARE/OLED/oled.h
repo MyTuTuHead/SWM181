@@ -22,11 +22,11 @@
 
 //------OLED端口定义---用户只需修改这个端口即可-----//
 
-#define OLED_SCL_PIN	PIN4
-#define OLED_SCL_PORT	GPIOB
+#define OLED_SCL_PIN	PIN1
+#define OLED_SCL_PORT	GPIOD
 
-#define OLED_SDA_PIN	PIN3
-#define OLED_SDA_PORT	GPIOB
+#define OLED_SDA_PIN	PIN2
+#define OLED_SDA_PORT	GPIOD
 
 
 #define OLED_SCLK_Clr() GPIO_ClrBit(OLED_SCL_PORT,OLED_SCL_PIN)

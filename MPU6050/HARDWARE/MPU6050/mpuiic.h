@@ -16,12 +16,12 @@
   
 
 
-#define POUT(PIN,n)	{ n==1 ? PBOUT_H(PIN) : PBOUT_L(PIN);}
+#define POUT(PIN,n)	{ n==1 ? PDOUT_H(PIN) : PDOUT_L(PIN);}
 	
-#define SCL_PIN	PIN6
+#define SCL_PIN	PIN1
 
-#define SDA_PIN	PIN7
-#define SDA_PORT	GPIOB
+#define SDA_PIN	PIN2
+#define SDA_PORT	GPIOD
 	   
 //IO方向设置
 #define MPU_SDA_IN()  {GPIO_Init(SDA_PORT,SDA_PIN,GPIO_DIR_IN,GPIO_PULL_UP,GPIO_PULL_DOWN_NOT,0);}//上拉输入，
@@ -30,7 +30,7 @@
 //IO操作函数	 
 //#define MPU_IIC_SCL    PBOUT_H(9) 		//SCL
 //#define MPU_IIC_SDA    PBout(8) 		//SDA	 
-#define MPU_READ_SDA   PB_READ(SDA_PIN)		//输入SDA 
+#define MPU_READ_SDA   PD_READ(SDA_PIN)		//输入SDA 
 
 #define u8 unsigned char
 #define u16 unsigned short
